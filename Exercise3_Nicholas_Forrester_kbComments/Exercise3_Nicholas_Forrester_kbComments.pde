@@ -3,6 +3,7 @@ Hand h;
 Alien a;
 SpaceShip s;
 Space b;
+Toy t;
 
 
 void setup() {
@@ -12,6 +13,7 @@ void setup() {
   a = new Alien();
   s = new SpaceShip();
   b = new Space();
+  t = new Toy(200,200);
  
 }
 void draw()
@@ -20,6 +22,7 @@ void draw()
   
   
 
+  t.display();
   b.outerspace();
  
   c.tonda();
